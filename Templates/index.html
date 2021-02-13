@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block header %}
+<link rel="stylesheet" href={{ url_for('static', filename='css/home.css') }}>
+{% endblock %}
+{% block title %}FixedTrack{% endblock %}
+{% block content %}
+
+<div class="jumbotron">
+  <h1 class="display-4">FixedTrack</h1>
+  <p class="lead">Tempat jual beli part sepeda Fixie.</p>
+  <hr class="my-4">
+  <p>Design by : Adi Pradana&copy;</p>
+  <p class="lead">
+    <a class="btn btn-outline-info btn-lg" href="/contact" role="button">Contact as</a>
+  </p>
+</div>
+{% endblock %}
